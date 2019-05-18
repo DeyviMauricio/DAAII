@@ -15,8 +15,7 @@
             </div>
             <div class="card-body">
                     <form  method="POST">
-                        <label>ID:</label>
-                        <input type="text" name="id" class="form-control" >
+                        
                         <label>Nombre</label>
                         <input type="text" name="nombre" class="form-control" >
                         <label>Apellido</label>

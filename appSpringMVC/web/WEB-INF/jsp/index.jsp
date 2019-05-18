@@ -36,8 +36,8 @@
                                 <td>${lista.nombre} ${lista.apellido}</td>
                                 <td>${lista.correo}</td>
                                 <td>${lista.direccion}</td>
-                                <td><a href="#" class="btn btn-warning">Editar</a>
-                                    <a href="#" class="btn btn-danger">Eliminar</a></td>
+                                <td><a href="editar.htm?id=${lista.id}" class="btn btn-warning">Editar</a>
+                                    <a href="eliminar.htm?id=${lista.id}" class="btn btn-danger">Eliminar</a></td>
                             </tr>
                           </c:forEach> 
                         </tbody>
